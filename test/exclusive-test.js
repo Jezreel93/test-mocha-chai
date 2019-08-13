@@ -13,7 +13,7 @@ var expect = require('chai').expect;
  * queremos ejecutar un parte de ellos o incluso un único test.
  */
 
-/*describe.only('Caso 1 - Only', () => {
+describe.only('Caso 1 - Only', () => {
     it ('Exclusive Test 1', () => {
         expect( true ).to.equal( true );
         expect( true ).to.be.true;
@@ -33,5 +33,5 @@ describe('Caso 2 - Only', () => {
         expect( true ).to.equal( true );
         expect( true ).to.be.true;
     });
-});*/
+});
 
